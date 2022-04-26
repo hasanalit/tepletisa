@@ -1,0 +1,62 @@
+.hero {
+    margin-top: 70px;
+    margin-bottom: 24px;
+
+
+    &__container {
+        display: flex;
+        align-items: center;
+    }
+
+    &__left {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    &__headding {
+        margin: 0;
+        font-family: 'Gilroy';
+        font-style: normal;
+        width: 547px;
+        font-weight: 800;
+        font-size: 67.3724px;
+        line-height: 83px;
+        color: #FFFFFF;
+        border: 1px solid #037B35;
+    }
+
+    &__text {
+        margin: 5px 0 15px;
+        width: 487px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: rgba(255, 255, 255, 0.55);
+    }
+
+    &__button {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 12px 32px;
+        background: #FCBD17;
+        border-radius: 26.5px;
+        width: 156px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        border: none;
+        color: #FFFFFF;
+    }
+
+    &__main-img {
+        position: relative;
+        width: 697px;
+        height: 461px;
+    }
+}
