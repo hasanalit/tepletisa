@@ -16,7 +16,13 @@
     }
 
     &__tree {
-        margin-top: -40px;
+        margin-top: -200px;
+    }
+
+    &__huge-img-bottom {
+        position: relative;
+        margin-top: -380px;
+        width: 100%;
     }
 
     &__production {
@@ -24,4 +30,10 @@
         align-items: center;
     }
 
+    &__huge-company {
+        position: absolute;
+        z-index: 1000;
+        margin-top: -380px;
+        margin-left: 310px;
+    }
 }
