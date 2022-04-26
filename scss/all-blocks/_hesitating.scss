@@ -1,0 +1,113 @@
+.hesitating {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 130px;
+
+    &__container {
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    }
+
+    &__cubik {
+        position: absolute;
+        margin-left: -140px;
+        margin-top: 180px;
+    }
+
+    &__bio {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    &__heading {
+        margin: 40px 0 22px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        width: 325px;
+        font-weight: 800;
+        font-size: 29px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000000;
+    }
+
+    &__desc {
+        margin: 0;
+        margin-bottom: 22px;
+        font-family: 'Roboto';
+        font-style: normal;
+        width: 460px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__top-input {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 460px;
+    }
+
+    &__input {
+        padding: 0 71px 0 24px;
+        background: #F8F8F8;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        width: 218px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 60px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__bottom-section {
+        margin-top: 39px;
+    }
+
+    &__input-bio {
+        padding: 0 312px 80px 24px;
+        background: #F8F8F8;
+        border: 1px solid #E7E7E7;
+        box-sizing: border-box;
+        border-radius: 6px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        width: 460px;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 60px;
+        text-align: center;
+        color: #000000;
+    }
+
+    &__circle {
+        position: absolute;
+        margin-top: -140px;
+        margin-left: 450px;
+    }
+
+    &__btn {
+        margin-top: 38px;
+        padding: 4px 176px;
+        background: #037B35;
+        border-radius: 30px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 15px;
+        line-height: 60px;
+        text-align: center;
+        border: none;
+        color: #FFFFFF;
+    }
+}
